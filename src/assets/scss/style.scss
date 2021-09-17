@@ -1,0 +1,71 @@
+/*fonts */
+@font-face {
+    font-family: "SFProText-Heavy";
+    src: url(../../assets/font/SFProText-Heavy.woff2);
+}
+
+@font-face {
+    font-family: "SFProText-Medium";
+    src: url(../../assets/font/SFProText-Medium.woff2);
+}
+
+@font-face {
+    font-family: "SFProText-Bold";
+    src: url(../../assets/font/SFProText-Bold.woff2);
+}
+
+@font-face {
+    font-family: "SFProRounded-Bold";
+    src: url(../../assets/font/SF-Pro-Rounded-Bold.woff2);
+}
+
+/*normalize*/
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "SFProText-Medium", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.38;
+    color: #303030;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #328ab8;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*defaults style*/
+.wrapper {
+    max-width: 1435px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/*header*/
+.header {
+    display: flex;
+}
+
+
